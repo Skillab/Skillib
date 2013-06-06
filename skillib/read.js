@@ -33,6 +33,9 @@ skillib.register((function() {
 			"ready": function(text) {
 				return read(text, "ready");
 			},
+			"input": function(text) {
+				return read(text, "input");
+			},
 			"accept": function(text) {
 				return read(text, "accept");
 			},
